@@ -20,8 +20,8 @@ void main()
 	vec3 col	= vec3(base);
 	
 	for ( int i=0; i<4; i++ ){
-		for ( int j=0; j<=int(radius); j++ ){
-		for ( int k=0; k<=int(radius); k++ ){
+		for ( float j=0.; j<=radius; j+=1. ){
+		for ( float k=0.; k<=radius; k+=1. ){
 			
 			pos = vec2(j, k) + offs[i].xy;
 			
