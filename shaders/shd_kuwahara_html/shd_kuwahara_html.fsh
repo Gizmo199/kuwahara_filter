@@ -1,16 +1,10 @@
-//////////////////////////////////////////  NOTE  ////////////////////////////////////////////////
-//																								//
-//		DELETE THIS SHADER IF YOU ARE USING HTML5. INSTEAD USE THE HTML5 SHADER AND DEFINE		//
-//		RADIUS INSIDE THE SHADER																//
-//																								//
-//////////////////////////////////////////////////////////////////////////////////////////////////
-
 // Kuwahara paper	http://www.umsl.edu/~kangh/Papers/kang-tpcg2010.pdf
+
 varying vec2	v_vTexcoord;
 varying vec4	v_vColour;
 
 uniform vec2	texel;
-uniform float	radius;
+const	float	radius = 4.;
 
 void main()
 {
