@@ -1,9 +1,5 @@
-//////////////////////////////////////////  NOTE  ////////////////////////////////////////////////
-//																								
-//		DELETE 'shd_kuwahara' IF YOU ARE USING HTML5. INSTEAD USE THE HTML5 SHADER AND DEFINE	
-//		RADIUS INSIDE THE SHADER!																
-//																								
-//////////////////////////////////////////////////////////////////////////////////////////////////
+**NOTE**
+If you want to use this shader with HTML5, you will need to delete `shd_kuwahara` and change the `radius` value inside the shader `shd_kuwahara_html`
 
 ![kuwahara](https://user-images.githubusercontent.com/25496262/202015117-6120d04b-c1cd-46d2-9378-a5da3b069ff8.png)
 
